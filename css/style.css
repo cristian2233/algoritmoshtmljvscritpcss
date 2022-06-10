@@ -1,0 +1,80 @@
+body{
+    /*Margi = margen externa
+    padding = margen interna*/
+    margin: 0;
+    padding: 0;
+    background: url("../img/img-lenguajes-de-programacion-para-pymes-1080x628.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+ 
+}
+
+h1, h2, h3, h4, h5{
+    font-family: "Ubuntu";
+}
+
+p, button, input, label{
+    font-family: "Ubuntu";
+}
+
+h1{
+
+color: cornflowerblue; 
+font-size: 30px;
+margin-top: 15px
+
+}
+
+h2{
+    color: black;
+    font-size: 50px
+
+
+}
+
+h3{
+    color: cornflowerblue;
+    font-size: 30px
+
+
+}
+
+h4{
+    color: cornflowerblue;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+
+}
+p{
+
+    color: red;
+    font-size: 28px;
+    margin-bottom: 60px;
+}
+
+button{
+    padding: 10px 5px;
+    margin-top: 5px;
+    background: black;
+    border: 1px solid rebeccapurple;
+    cursor: pointer;
+    font-size: 10px;
+    color:  yellowgreen;
+    transition: .10s;
+
+}
+
+/*Hover es un estado de los elementos que se activa al pasar el cur sobre estos. */
+
+button:hover{
+    background: navy;
+    color: yellow;
+    
+    padding: 20px 50px;
+}
+
